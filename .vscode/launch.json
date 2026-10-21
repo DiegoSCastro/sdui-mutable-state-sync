@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Aplicação: nó Maelstrom",
+      "type": "dart",
+      "request": "launch",
+      "program": "bin/maelstrom_txn.dart",
+      "cwd": "${workspaceFolder}",
+      "console": "terminal"
+    },
+    {
+      "name": "Testes: todos",
+      "type": "dart",
+      "request": "launch",
+      "program": "test",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Testes: arquivo atual",
+      "type": "dart",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
