@@ -1,0 +1,10 @@
+name: sdui_mutable_state_sync
+description: Nó Maelstrom para o workload txn-rw-register.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+
+dev_dependencies:
+  test: ^1.26.2
